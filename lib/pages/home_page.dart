@@ -17,17 +17,17 @@ class HomePage extends StatelessWidget {
                 'Profile Picture',
                 style: TextStyle(
                   color: primaryTextColor,
-                  fontSize: 20,
+                  fontSize: 18,
                   fontWeight: FontWeight.w600,
                 ),
               ),
               SizedBox(
-                height: 50,
+                height: 30,
               ),
               Image.asset(
                 'assets/images/primary.png',
-                height: 140,
-                width: 140,
+                height: 120,
+                width: 120,
               ),
               SizedBox(
                 height: 16,
@@ -36,7 +36,7 @@ class HomePage extends StatelessWidget {
                 'Dzaky Brori',
                 style: TextStyle(
                   color: primaryTextColor,
-                  fontSize: 18,
+                  fontSize: 16,
                   fontWeight: FontWeight.w500,
                 ),
               ),
@@ -44,12 +44,42 @@ class HomePage extends StatelessWidget {
                 'Full-Stack Developer',
                 style: TextStyle(
                   color: secondaryTextColor,
-                  fontSize: 16,
+                  fontSize: 14,
                   fontWeight: FontWeight.w400,
                 ),
               ),
               SizedBox(
-                height: 75,
+                height: 55,
+              ),
+              Wrap(
+                spacing: 38,
+                runSpacing: 40,
+                children: [
+                  Image.asset(
+                    'assets/images/item.png',
+                    width: 70,
+                  ),
+                  Image.asset(
+                    'assets/images/item-1.png',
+                    width: 70,
+                  ),
+                  Image.asset(
+                    'assets/images/item-2.png',
+                    width: 70,
+                  ),
+                  Image.asset(
+                    'assets/images/item-3.png',
+                    width: 70,
+                  ),
+                  Image.asset(
+                    'assets/images/item-4.png',
+                    width: 70,
+                  ),
+                  Image.asset(
+                    'assets/images/item-5.png',
+                    width: 70,
+                  ),
+                ],
               ),
             ],
           ),
