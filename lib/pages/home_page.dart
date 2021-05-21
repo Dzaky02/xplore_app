@@ -11,7 +11,7 @@ class HomePage extends StatelessWidget {
           child: Column(
             children: [
               SizedBox(
-                height: 50,
+                height: 35,
               ),
               Text(
                 'Profile Picture',
@@ -22,7 +22,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 30,
+                height: 20,
               ),
               Image.asset(
                 'assets/images/primary.png',
@@ -30,7 +30,7 @@ class HomePage extends StatelessWidget {
                 width: 120,
               ),
               SizedBox(
-                height: 16,
+                height: 14,
               ),
               Text(
                 'Dzaky Brori',
@@ -49,7 +49,7 @@ class HomePage extends StatelessWidget {
                 ),
               ),
               SizedBox(
-                height: 55,
+                height: 40,
               ),
               Wrap(
                 spacing: 38,
@@ -80,6 +80,34 @@ class HomePage extends StatelessWidget {
                     width: 70,
                   ),
                 ],
+              ),
+              SizedBox(
+                height: 40,
+              ),
+              Container(
+                width: 224,
+                height: 55,
+                child: ElevatedButton(
+                  onPressed: () {},
+                  child: Text(
+                    'Update Profile',
+                    style: TextStyle(
+                      color: primaryTextColor,
+                      fontSize: 14,
+                      fontWeight: FontWeight.w500,
+                    ),
+                  ),
+                  style: ElevatedButton.styleFrom(
+                    primary: Colors.white,
+                    onSurface: Colors.black26,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(16),
+                    ),
+                  ),
+                ),
+              ),
+              SizedBox(
+                height: 40,
               ),
             ],
           ),
